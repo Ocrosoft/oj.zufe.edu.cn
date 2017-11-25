@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1445262399 source:c:\workarea\【1598】10转2并且计算连续的1的最大数\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+	<string.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1443859599 source:c:\workarea\【数组】逆序输出句子\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1443859642 source:c:\workarea\0072\main.c
+	<stdio.h>
+	<stdlib.h>
+

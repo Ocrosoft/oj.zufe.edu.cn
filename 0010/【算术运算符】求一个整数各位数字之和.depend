@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1442894039 source:c:\workarea\【算术运算符】求一个整数各位数字之和\main.c
+	<stdio.h>
+	<stdlib.h>
+

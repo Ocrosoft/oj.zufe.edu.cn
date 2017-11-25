@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int ctof(int C)
+{
+    int F;
+    F=32+C*9/5;
+}
+int main()
+{
+    int C=-100;
+    int F;
+    while (C=150)
+    printf("%d",)
+        C=C+5;
+    printf("Hello world!\n");
+    return 0;
+}

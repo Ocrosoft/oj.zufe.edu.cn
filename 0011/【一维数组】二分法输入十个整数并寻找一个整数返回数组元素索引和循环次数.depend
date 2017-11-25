@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1442876296 source:c:\workarea\【一维数组】二分法输入十个整数并寻找一个整数返回数组元素索引和循环次数\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1442876757 source:c:\workarea\0011\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

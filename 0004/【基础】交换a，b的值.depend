@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442891722 source:c:\workarea\【基础】交换a，b的值\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1442892189 source:c:\workarea\0004\main.c
+	<stdio.h>
+	<stdlib.h>
+

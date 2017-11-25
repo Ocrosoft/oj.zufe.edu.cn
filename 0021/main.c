@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char c[5]= {'C','h','i','n','a'};
+    int n=0,i=0;
+    while(n<5)
+    {
+        i=0;
+        while(i<4)
+        {
+            c[n]+=1;
+            i++;
+        }
+        n++;
+    }
+    n=0;
+    while(n<5)
+    {
+        printf("%c",c[n]);
+        n++;
+    }
+    return 0;
+}

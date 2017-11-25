@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442884340 source:c:\workarea\【if语句】计算两个方案的折扣\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1444664083 source:c:\workarea\0002\main.c
+	<stdio.h>
+	<stdlib.h>
+

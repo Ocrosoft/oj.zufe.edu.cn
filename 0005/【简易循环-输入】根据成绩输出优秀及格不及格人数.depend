@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442924908 source:c:\workarea\【简易循环-输入】根据成绩输出优秀及格不及格人数\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1442924998 source:c:\workarea\xxxx\main.c
+	<stdio.h>
+	<stdlib.h>
+

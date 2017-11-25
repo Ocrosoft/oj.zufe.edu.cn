@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int m=0,n=1,x,i;
+    while(scanf("%d",&x)!=EOF)
+    {
+        m=0;
+        n=1;
+        i=0;
+        if (x==1)
+        {
+           printf("Fibonacci数列中，第一个大于1的数是第3个数，其值为2\n");
+        }
+        else
+        {
+            while(x>m && x>n)
+            {
+                m=m+n;
+                n=m+n;
+                i+=2;
+            }
+            if (x==m)
+            {
+                printf("Fibonacci数列中，第一个大于%d的数是第%d个数，其值为%d\n",x,i+1,n);
+            }
+            else if (x<m)
+            {
+                printf("Fibonacci数列中，第一个大于%d的数是第%d个数，其值为%d\n",x,i,m);
+            }
+            else if (x==n)
+            {
+                m=m+n;
+                printf("Fibonacci数列中，第一个大于%d的数是第%d个数，其值为%d\n",x,i+2,m);
+            }
+            else if (x<n)
+            {
+                printf("Fibonacci数列中，第一个大于%d的数是第%d个数，其值为%d\n",x,i+1,n);
+            }
+        }
+        m=0;
+        n=1;
+        i=0;
+
+        while(x>=m && x>=n)
+        {
+            if (i%2==0)
+            {
+                m=m+n;
+                i++;
+            }
+            else
+            {
+                n=m+n;
+                i++;
+            }
+        }
+        if (m>x)
+        {
+            printf("Fibonacci数列中，不大于%d的最大数是第%d个数，其值为%d\n",x,i,n);
+        }
+        else if (n>x)
+        {
+            printf("Fibonacci数列中，不大于%d的最大数是第%d个数，其值为%d\n",x,i,m);
+        }
+    }
+    return 0;
+}

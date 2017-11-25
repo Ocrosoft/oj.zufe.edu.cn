@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1443873201 source:c:\workarea\【】一个奇数能否写成两素数和\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1443873295 source:c:\workarea\0065\main.c
+	<stdio.h>
+	<stdlib.h>
+

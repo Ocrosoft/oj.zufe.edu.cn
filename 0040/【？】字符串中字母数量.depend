@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1443318562 source:c:\workarea\¡¾£¿¡¿×Ö·û´®ÖÐ×ÖÄ¸ÊýÁ¿\main.c
+	<stdio.h>
+
+1443320587 source:c:\workarea\0040\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

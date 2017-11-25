@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+double fact(int n)
+{
+    if (n==1)
+        return 1;
+    else
+        return fact(n-1)*n;
+}
+double mypow(double x, int n)
+{
+    double p=1;
+    int i;
+    for(i=0;i<n;i++)
+        p*=x;
+    return p;
+}
+
+int main()
+{
+    int n,i;
+    double x, sum=0;
+    scanf("%lf %d",&x, &n);
+    for(i=0;i<n;i++)
+    {
+        sum+=mypow(-1,i-1)*mypow(x,n)/fact(n);
+    }
+    printf("%.4lf",sum);
+    return 0;
+}

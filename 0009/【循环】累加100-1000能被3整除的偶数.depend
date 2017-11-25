@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442889295 source:c:\workarea\【循环】累加100-1000能被3整除的偶数\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1443267878 source:c:\workarea\0009\main.c
+	<stdio.h>
+	<stdlib.h>
+

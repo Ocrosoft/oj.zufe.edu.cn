@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main( )
+{
+	int V, D;	 double d, d3;		//d3为d的3次方
+	double pi = 2*asin(1);		//把π用数学函数表示出来
+	scanf( "%d%d", &D, &V );	//输入D和V的值
+	d3 = D*D*D-6*V/pi;		//计算d的3次方
+	d = pow( d3, 1.0/3 );
+	printf( "%.3f\n", d );
+	return 0;
+}

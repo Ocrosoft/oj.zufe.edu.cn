@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1443330395 source:c:\workarea\【math】求三角形外接圆面积\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1443330395 source:c:\workarea\0047\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

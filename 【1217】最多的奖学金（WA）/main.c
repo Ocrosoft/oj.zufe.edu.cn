@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
+
+int main()
+{
+    int M,T,U,F,D;
+    scanf("%d%d%d%d%d",&M,&T,&U,&F,&D);
+    char temp;
+    int i;
+    int time=0,time2=0;
+    for(i=0; i<T; i++)
+    {
+        getchar();
+        getc(t);
+        if(t=='u')
+            time2+=(U+D);
+        else if(t=='f')
+            time2+=2*F;
+        else if(t=='d')
+            time2+=(U+D);
+        if(time2>M)
+            printf("%d",time);
+        else time=time2;
+    }
+    return 0;
+}

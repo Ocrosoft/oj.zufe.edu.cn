@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void del_char(char *str, char del)
+{
+    char *d = str;
+    while (*str != '\0')//到结束停止.
+    {
+        if (*str != del)//如果这个字符不用删除.
+        {
+            *d++ = *str;//往*d位置覆盖,如果一直没有要删除字符,就是自己覆盖自己.
+        }
+        ++str;//对比下一个字符
+    }
+    *d = '\0';//给最后加上结束符,打印时到\0结束.
+}
+int main()
+{
+    char s[200],c[200];
+    char* a=&s[0];
+    int n,i,j;
+    scanf("%d",&n);
+    for(i=0; i<n; i++)
+    {
+        scanf("%s%s",s,c);
+        for(j=0; c[j]!='\0'; j++)
+        {
+            del_char(a,c[j]);
+        }
+        printf("%s\n",s);
+    }
+
+    return 0;
+}

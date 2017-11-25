@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1443320100 source:c:\workarea\【getchar】大写转小写小写转大写\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1443320314 source:c:\workarea\【gets】大写转小写小写转大写\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1443320314 source:c:\workarea\0041\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
